@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.title{
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: -2px -1px .5px rgb(3, 219, 14), 2px 1px .5px red;
+}
+#zse-container{
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.zse-kwadrat{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+#green{
+    background-color: lime;
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#blue{
+    background-color: blue;
+}
+.pressed{
+    border: 1px solid black;
+}
